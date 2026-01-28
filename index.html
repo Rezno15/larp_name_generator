@@ -450,7 +450,7 @@
             const middle = patterns.middles[Math.floor(seed / 10) % patterns.middles.length];
             const suffix = patterns.suffixes[Math.floor(seed / 100) % patterns.suffixes.length];
             
-            const generatedName = prefix + middle + suffix;
+            const generatedName = prefix + middle + ' ' +suffix;
             
             const meaning = patterns.meanings[seed % patterns.meanings.length];
             
